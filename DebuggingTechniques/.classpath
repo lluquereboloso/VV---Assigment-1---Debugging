@@ -22,5 +22,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="src/main/java/vyv2017/grupo0/DebuggingTechniques/tadPila.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
