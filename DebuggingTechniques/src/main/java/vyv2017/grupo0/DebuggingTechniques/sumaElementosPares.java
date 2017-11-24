@@ -1,5 +1,5 @@
 
-package pruebasDelTad;
+package vyv2017.grupo0.DebuggingTechniques;
 
 import tadPila.Pila;
 import tadPila.PilaVacia;
