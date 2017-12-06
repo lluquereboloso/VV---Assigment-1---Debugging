@@ -8,7 +8,10 @@ public class SumaElementPares {
 			int elem, suma=0, i=0;
 			if(!D.pilaVacia()){
 					elem = D.desapilar();
-					suma = elem + sumaElementPares(D);
+					if(i%2 == 0)
+						suma = elem + sumaElementPares(D);
+					else
+						suma = sumaElementPares(D);
 					D.apilar(elem);
 					i=i+2;
 			}
